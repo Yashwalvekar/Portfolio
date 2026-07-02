@@ -1,0 +1,207 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #181844;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background: #6667AB; /* Semi-transparent background */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition: 0.5s
+  }
+  
+  /* ------------------ index.html -------------------- */
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #FF4500; /* Coral accent color on hover */
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 6rem 2rem 2rem;
+    background-image: url('assets/background.jpg'); /* Add your background image */
+    background-size: cover;
+    background-position: center;
+    color: #181844;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+    background: #6667AB; /* Primary blue color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s ease;
+  }
+  
+  .btn:hover {
+    color: #6667AB; /* Darker blue on hover */
+    background-color: #fff;
+    border: 3px solid #6667AB;
+  }
+  
+  /* Animation for Page Transitions */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  body {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background: #6667AB; /* Semi-transparent background */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  /* --------------- projects.html -------------------- */
+  
+  .projects{
+    color: #181844;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 70px;  
+  }
+  .projects h1{
+    font-size: 40px;
+  }
+  
+  .project-item{
+    display: inline-block;
+    margin-left: 90px;
+    padding: 0px 20px 45px 20px;
+  }
+  .project-item:hover{
+    border: 5px solid #6667AB;
+    border-radius: 13px;
+  }
+  
+  .btn-arrow{
+    border: 3px solid #6667AB;
+    font-size: 40px;
+    color: #6667AB;
+    height: 60px;
+    width: 60px;
+    margin-left: 450px;
+    border-radius: 25px;
+  }
+  .btn-arrow:hover{
+    cursor: pointer;
+  }
+  
+  /* ----------------- resume.html --------------------- */
+  
+  
+  .edu h2, .skills h2{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .edu,.skills{
+    display: inline-block;
+    margin-left: 130px;
+    border: 3px solid #6667AB;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .skills{
+    position: absolute;
+    margin-top: 30px;
+  }
+  .edu{
+    margin-top: 30px;
+  }
+  
+  .edu:hover,.skills:hover{
+    background-color: #6667AB;
+    color: #fff;
+    border-width: 6px;
+  }
+  
+  
+  /* --------------------- about.html ---------------------- */
+  
+  .about{
+    margin-top: 70px;
+    margin-left: 30px;
+  }
+  .ab h1{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  .x,.linkedin,.github,.gmail{
+    height: 40px;
+    margin-left: 150px;
+    width: 40px;
+  }
+  .x,.linkedin,.github{
+    margin-top: 4px;
+  }
+  
+  .gmail{
+    height: 48px;
+    width: 45px;
+    /* margin-bottom: 10px; */
+  }
